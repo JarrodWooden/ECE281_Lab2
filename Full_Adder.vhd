@@ -1,20 +1,16 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: USAFA
+-- Engineer: Jarrod Wooden
 -- 
 -- Create Date:    20:39:17 02/09/2014 
--- Design Name: 
+-- Design Name: 	One Bit Full Adder
 -- Module Name:    Full_Adder - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
+-- Project Name: 		Adding and Subtracting Basics
+-- Target Devices: 	FPGA Spartan
+
 -- Revision: 
 -- Revision 0.01 - File Created
--- Additional Comments: 
+-- Additional Comments:  This is the start of Lab2_FourBitFullAdder
 --
 ----------------------------------------------------------------------------------
 library IEEE;

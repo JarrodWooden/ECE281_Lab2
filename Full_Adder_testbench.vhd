@@ -1,20 +1,15 @@
 --------------------------------------------------------------------------------
--- Company: 
--- Engineer:
+-- Company:  USAFA
+-- Engineer:	Jarrod Wooden
 --
 -- Create Date:   20:43:40 02/09/2014
--- Design Name:   
+-- Design Name:   Full Adder Testbench
 -- Module Name:   C:/Users/C16Jarrod.Wooden/Documents/ECE281/Lab2_Wooden/Full_Adder_testbench.vhd
 -- Project Name:  Lab2_Wooden
--- Target Device:  
--- Tool versions:  
--- Description:   
--- 
+-- Target Device:  	FPGA
 -- VHDL Test Bench Created by ISE for module: Full_Adder
--- 
--- Dependencies:
--- 
--- Revision:
+
+-- Revision: 1
 -- Revision 0.01 - File Created
 -- Additional Comments:
 --
