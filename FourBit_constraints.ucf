@@ -1,0 +1,40 @@
+# A button allows you to either add or subtract
+NET "Cin" LOC = "D18"; # Type = INPUT, Sch name = BTN0
+
+# ==== Slide Switches (SW) ====
+
+# The first four pins conect the first input to those pins
+NET "A<0>" LOC = "G18"; # Type = INPUT, Sch name = SW0
+NET "A<1>" LOC = "H18"; # Type = INPUT, Sch name = SW1
+NET "A<2>" LOC = "K18"; # Type = INPUT, Sch name = SW2
+NET "A<3>" LOC = "K17"; # Type = INPUT, Sch name = SW3
+
+# The next four are the constraints for the second input that
+# You want to add or substract
+NET "B<0>" LOC = "L14"; # Type = INPUT, Sch name = SW4
+NET "B<1>" LOC = "L13"; # Type = INPUT, Sch name = SW5
+NET "B<2>" LOC = "N17"; # Type = INPUT, Sch name = SW6
+NET "B<3>" LOC = "R17"; # Type = INPUT, Sch name = SW7
+
+# LED outputs constraints
+
+# Controls the four bit sum output for either addition or subtraction
+NET "Sum<0>"  LOC = "J14"; # Sch name = LD0
+NET "Sum<1>"  LOC = "J15"; # Sch name = LD1
+NET "Sum<2>"  LOC = "K15"; # Sch name = LD2
+NET "Sum<3>"  LOC = "K14"; # Sch name = LD3
+
+# LD7 will show if the button in pressed or not for '1' being subtraction and '0'
+#being addition
+
+#haha ... this makes the Cin light sensitive
+#NET "Cin" LOC = "R4"; # Sch name = LD7
+
+#LD5 will light up when an overflow happens
+NET "C4" LOC = "P15"; # Sch name = LD7
+
+
+#NET "X<4>"  LOC = "E17"; # Sch name = LD4
+#NET "X<5>"  LOC = "P15"; # Sch name = LD5
+#NET "X<6>"  LOC = "F4";  # Sch name = LD6
+#NET "X<7>"  LOC = "R4";  # Sch name = LD7
