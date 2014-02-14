@@ -168,7 +168,7 @@ I wanted to test subtraction or addition. Below is the initial code for subtract
 Within the nested for loop I asserted true if the Sum = A - B or A + B, if I was testing either addition or
 subtraction. If it was wrong I would output what the sum was, what it was supposed to be, and the value for A and B.
     
-    -I would use `integer'image(to_integer(unsigned((A-B))))` to display each value where the error occured.
+I would use `integer'image(to_integer(unsigned((A-B))))` to display each value where the error occured.
     
 Then, also within the nested for loop I made the program output each time there was an overflow by asserting when
 C4 (the output of the overflow multiplexer) equals zero. Then ouptuting each bit of the A vector, B vector,
