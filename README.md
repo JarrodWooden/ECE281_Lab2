@@ -1,6 +1,9 @@
 ECE281_Lab2
 ===========
 
+Captain Silva checked my functionality: Full points for Functionality!!!!
+
+
 #Work Up To VHDL
 
 
