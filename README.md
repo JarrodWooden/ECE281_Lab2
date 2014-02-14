@@ -130,13 +130,13 @@ Then I constructed the four connected full adders:
       A0_B0: Full_Adder PORT MAP (A(0) , Bfinal(0), Cin, Ocheck(0), C0);
       ```
       
-      -Where each full adder will be sent each bit from A, Bfinal, Cin, and ouput the copy for sum, and the carry
-      -for the next full adder.
+      Where each full adder will be sent each bit from A, Bfinal, Cin, and ouput the copy for sum, and the carry
+      for the next full adder.
       
 Finally I constructed the final multiplexer which takes in the copy of sum, A, and Bfinal, and outputs C4 which
 is whether or not there is an overflow.
 
-    -The multiplexer decides this by comparing the three most significant bits from each `std_logic_vector`s
+The multiplexer decides this by comparing the three most significant bits from each `std_logic_vector`s
     
 ************
 
